@@ -21,5 +21,8 @@ b.add(10)
 print("Sajal" in a)
 print(a)
 print(b.issubset(a))
+c = (12, 13)
+print(c.count())
+
 
 # be careful with dictionaries, lists, sets userdefined objects

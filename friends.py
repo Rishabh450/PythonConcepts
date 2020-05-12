@@ -1,6 +1,5 @@
 friends = input("enter")
 lister = friends.split(' ')
-
 people = open('people.txt', 'r+')
 people_lines = people.readlines()
 people_lines = [name.strip() for name in people_lines]
